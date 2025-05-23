@@ -16,24 +16,23 @@ type Project struct {
 	date     time.Time
 }
 
-var Porto []Project
-// var Porto = []Project{
-// 	{"AI Assistant", "AI", 3, time.Date(2024, 1, 10, 0, 0, 0, 0, time.UTC)},
-// 	{"Budget Tracker", "Finance", 2, time.Date(2023, 11, 5, 0, 0, 0, 0, time.UTC)},
-// 	{"Chat App", "Communication", 3, time.Date(2023, 8, 20, 0, 0, 0, 0, time.UTC)},
-// 	{"Data Visualizer", "Data Science", 3, time.Date(2024, 2, 14, 0, 0, 0, 0, time.UTC)},
-// 	{"E-commerce Site", "Web Development", 3, time.Date(2022, 12, 25, 0, 0, 0, 0, time.UTC)},
-// 	{"Fitness Tracker", "Health", 2, time.Date(2023, 9, 18, 0, 0, 0, 0, time.UTC)},
-// 	{"Game Engine", "Game Dev", 3, time.Date(2023, 7, 9, 0, 0, 0, 0, time.UTC)},
-// 	{"Habit Logger", "Productivity", 1, time.Date(2024, 3, 1, 0, 0, 0, 0, time.UTC)},
-// 	{"IoT Home System", "IoT", 3, time.Date(2023, 6, 15, 0, 0, 0, 0, time.UTC)},
-// 	{"Job Board", "Web Development", 3, time.Date(2023, 10, 30, 0, 0, 0, 0, time.UTC)},
-// 	{"Kanban Board", "Productivity", 2, time.Date(2024, 5, 12, 0, 0, 0, 0, time.UTC)},
-// 	{"Language Learner", "Education", 2, time.Date(2022, 8, 3, 0, 0, 0, 0, time.UTC)},
-// 	{"Music Recommender", "AI", 3, time.Date(2024, 4, 7, 0, 0, 0, 0, time.UTC)},
-// 	{"News Aggregator", "Media", 3, time.Date(2023, 5, 21, 0, 0, 0, 0, time.UTC)},
-// 	{"Online Portfolio", "Web Development", 1, time.Date(2022, 9, 13, 0, 0, 0, 0, time.UTC)},
-// }
+var Porto = []Project{
+	{"AI Assistant", "AI", 3, time.Date(2024, 1, 10, 0, 0, 0, 0, time.UTC)},
+	{"Budget Tracker", "Finance", 2, time.Date(2023, 11, 5, 0, 0, 0, 0, time.UTC)},
+	{"Chat App", "Communication", 3, time.Date(2023, 8, 20, 0, 0, 0, 0, time.UTC)},
+	{"Data Visualizer", "Data Science", 3, time.Date(2024, 2, 14, 0, 0, 0, 0, time.UTC)},
+	{"E-commerce Site", "Web Development", 3, time.Date(2022, 12, 25, 0, 0, 0, 0, time.UTC)},
+	{"Fitness Tracker", "Health", 2, time.Date(2023, 9, 18, 0, 0, 0, 0, time.UTC)},
+	{"Game Engine", "Game Dev", 3, time.Date(2023, 7, 9, 0, 0, 0, 0, time.UTC)},
+	{"Habit Logger", "Productivity", 1, time.Date(2024, 3, 1, 0, 0, 0, 0, time.UTC)},
+	{"IoT Home System", "IoT", 3, time.Date(2023, 6, 15, 0, 0, 0, 0, time.UTC)},
+	{"Job Board", "Web Development", 3, time.Date(2023, 10, 30, 0, 0, 0, 0, time.UTC)},
+	{"Kanban Board", "Productivity", 2, time.Date(2024, 5, 12, 0, 0, 0, 0, time.UTC)},
+	{"Language Learner", "Education", 2, time.Date(2022, 8, 3, 0, 0, 0, 0, time.UTC)},
+	{"Music Recommender", "AI", 3, time.Date(2024, 4, 7, 0, 0, 0, 0, time.UTC)},
+	{"News Aggregator", "Media", 3, time.Date(2023, 5, 21, 0, 0, 0, 0, time.UTC)},
+	{"Online Portfolio", "Web Development", 1, time.Date(2022, 9, 13, 0, 0, 0, 0, time.UTC)},
+}
 
 
 
